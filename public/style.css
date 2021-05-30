@@ -1,0 +1,128 @@
+*,*::before,*::after{
+	box-sizing: border-box;
+	font-family: 'Gotham Rounded',sans-serif;
+}
+
+
+body{
+	background:linear-gradient(to bottom, rgb(0, 153, 230), rgb(179, 230, 255));
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+}
+
+.container-1{
+	background-color : white;
+	max-width: 90%;
+	width: 1000px;
+	box-shadow: 0 5px 10px black;
+	border-radius: 5px;
+}
+
+.header{
+	background-color: rgb(0, 38, 77);
+	height: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px; 
+
+}
+
+.content{
+	margin-top: 10px;
+	padding: 40px;
+}
+
+.initial{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+}
+
+
+.status{
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+
+.location{
+	font-size: 1.5rem;
+	font-weight: normal;
+	margin-top: 10px;
+}
+
+
+.value{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+.value1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-basis: 0;
+	flex-grow: 1;
+	padding: 10px;
+}
+
+#border{
+	border-right: 1px solid #777;
+	border-left: 1px solid #777;
+}
+
+.value1 .title{
+	font-size: 1rem;
+	flex-grow: 1;
+	font-weight: bold;
+	color: #777;
+}
+
+.value1 .val{
+	font-size: 1rem;
+	margin-top: 10px;
+}
+
+
+.Search{
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+.city-search{
+	font-size: 2rem;
+	outline: none;
+	border: 1px solid #777;
+	border-radius: 5px;
+	padding: 10px 15px;
+	width: 100%;
+}
+
+.button1{
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+.button2{
+	background-color:#004d99;
+	color: white;
+	font-size: 30px;
+	border:1px solid #777;
+	border-radius: 5px;
+}
+
+.Powered{
+	position: absolute;
+	bottom: 5px;
+	right: 20px;
+}
